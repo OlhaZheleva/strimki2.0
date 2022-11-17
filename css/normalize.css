@@ -29,11 +29,14 @@ dd {
   margin: 0;
 }
 
+
+ 
 /* Set the basic default settings for the body */
 body {
   line-height: 1.5;
   min-height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   -webkit-touch-callout: none;

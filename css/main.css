@@ -102,6 +102,22 @@ body {
     color: #18181B;
 }
 
+h2 { 
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #18181B;
+}
+p { 
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {}
@@ -116,6 +132,16 @@ body {
 @media (min-width: 768px) {
     .btn__main { 
         max-width: 248px ;
+    }
+    h2 { 
+        font-size: 68px;
+        line-height: 78px;
+        text-align: center;
+    }
+    p { 
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center; 
     }
 }
 
