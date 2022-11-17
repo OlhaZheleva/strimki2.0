@@ -1,0 +1,85 @@
+/*------header------*/
+
+.header { 
+    height: 100vh;
+    max-height: 750px;
+    color: #FFFFFF;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 51px;
+}
+
+.header__back {
+    
+}
+
+.header__promo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    min-width: 100%;
+    height: 100%;
+    max-height: 750px;
+    z-index: -1;
+}
+
+.header__top {
+    position: fixed;
+    top: 0;
+    padding: 20px 0;
+}
+.header__btn { 
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.header__logo {}
+
+.header__form {}
+
+.header__middle {
+
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+@media (min-width: 768px) {
+.header { 
+    max-height: 817px;
+}
+.header__promo {
+        max-height: 817px;
+    }
+.header__btn {
+    flex-direction: row;
+    gap: 20px;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {}
+
+/* Iphone 5 */
+@media (max-width: 320px) {}

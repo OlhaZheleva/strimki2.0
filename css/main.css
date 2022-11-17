@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('../fonts/Gilroy-ExtraBold'),
+        url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('../fonts/Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('../fonts/Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('../fonts/Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.otf');
+    src: local('Inter Medium'), local('../fonts/Inter-Medium'),
+        url('../fonts/Inter-Medium.woff2') format('embedded-opentype'),
+        url('../fonts/Inter-Medium.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('PlusJakartaSans-Regular.eot');
+    src: local('Plus Jakarta Sans Regular'), local('PlusJakartaSans-Regular'),
+        url('PlusJakartaSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('PlusJakartaSans-Regular.woff') format('woff'),
+        url('PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body { 
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color: #18181B;
+}
+
+[class*="_container"] { 
+    margin: 0px auto;
+    width: 100vw;
+    padding: 0 20px;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.btn__main {
+    width: 100%;
+    background: none;
+    border: 2px solid #A1A1AA;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__main_white {
+    background: #FFFFFF;
+    border: none;
+    color: #18181B;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+@media (min-width: 768px) {
+    .btn__main { 
+        max-width: 248px ;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {}
+
+/* Iphone 5 */
+@media (max-width: 320px) {}
